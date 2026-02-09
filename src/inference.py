@@ -116,7 +116,7 @@ def main():
     
     # Print results
     print("\n" + "=" * 50)
-    print("🌾 PREDICTION RESULTS")
+    print(" PREDICTION RESULTS")
     print("=" * 50)
     
     print(f"\n🔬 Disease Classification:")
@@ -124,15 +124,15 @@ def main():
     print(f"   Confidence: {results['disease']['confidence']:.1f}%")
     print(f"\n   All probabilities:")
     for name, prob in results['disease']['all_probs'].items():
-        bar = "█" * int(prob / 5) + "░" * (20 - int(prob / 5))
+        bar = "" * int(prob / 5) + "░" * (20 - int(prob / 5))
         print(f"   {name:<20} {bar} {prob:.1f}%")
     
-    print(f"\n🧪 Nutrient Deficiency:")
+    print(f"\n Nutrient Deficiency:")
     print(f"   Prediction: {results['nutrient']['prediction']}")
     print(f"   Confidence: {results['nutrient']['confidence']:.1f}%")
     print(f"\n   All probabilities:")
     for name, prob in results['nutrient']['all_probs'].items():
-        bar = "█" * int(prob / 5) + "░" * (20 - int(prob / 5))
+        bar = "" * int(prob / 5) + "░" * (20 - int(prob / 5))
         print(f"   {name:<25} {bar} {prob:.1f}%")
     
     print("\n" + "=" * 50)
