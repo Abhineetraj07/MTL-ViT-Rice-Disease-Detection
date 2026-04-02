@@ -9,6 +9,13 @@
 </p>
 
 <p align="center">
+  <img src="https://github.com/Abhineetraj07/MTL-ViT-Rice-Disease-Detection/actions/workflows/ci.yml/badge.svg" alt="CI" />
+  <img src="https://img.shields.io/badge/Accuracy-96.2%25-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/AUC-0.995-blue?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/Abhineetraj07/MTL-ViT-Rice-Disease-Detection?style=flat-square&color=orange" />
+</p>
+
+<p align="center">
   <b>Simultaneously detects rice leaf diseases AND nutrient deficiencies using a shared Vision Transformer backbone — achieving 96%+ accuracy on both tasks.</b>
 </p>
 
